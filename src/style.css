@@ -1,0 +1,53 @@
+.wrapper .container {
+  max-width: 80rem;
+}
+
+.button-small {
+  font-size: .8rem;
+  height: 2.8rem;
+  line-height: 2.8rem;
+  padding: 0 1.5rem;
+}
+
+.navigation {
+  background: #f4f5f6;
+  border-bottom: .1rem solid #d1d1d1;
+  display: block;
+  height: 5.2rem;
+  left: 0;
+  max-width: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.post {
+  margin: 3em 0 4em 0;
+  border-bottom: 0.2rem solid #9b4dca;
+}
+
+textarea {
+  height: 10em
+}
+
+form {
+  margin-top: 3em;
+}
+
+.loader {
+  display: block;
+  margin: 0 auto;
+  width: 10em;
+  margin-top: 5em;
+}
+
+.message {
+  text-align: center;
+  margin-top: 5em;
+  color: #9b4dca;
+  border: 1px solid #9b4dca;
+  border-radius: 2px;
+  padding: 1em 0;
+}
