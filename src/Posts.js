@@ -36,10 +36,6 @@ export default class Posts extends Component {
       })
     }, 3000)
   }
-
-  componentDidUpdate () {
-    console.log(this.state.posts)
-  }
   
   render () {
     const { posts } = this['state']

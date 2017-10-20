@@ -57,10 +57,6 @@ export default class CreatePost extends Component {
     
     this.setState({ requestMessage, loader: false })
   }
-
-  componentDidUpdate () {
-    console.log(this.state)
-  }
   
   render () {
     const { requestMessage, validationIssue, loading, userId, title, body } = this['state']
